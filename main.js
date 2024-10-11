@@ -8,8 +8,9 @@ function criaCartao (categoria, pergunta, resposta) {
   <div class="pergunta-cartao">
     <p>${pergunta}</p>
   </div>
-  <div class="resposta-cartao"></div>
-  <p>${resposta}</p>
+  <div class="resposta-cartao">
+  <p>${resposta}</p></div>
+
 </div>`
 conteiner.appendChild(cartao);
 }
