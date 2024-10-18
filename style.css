@@ -40,3 +40,9 @@ footer{
     flex-basis: calc(33% - 6rem);
 
 }
+
+
+.conteudo-cartao {
+    background-color: var(--cartão-frente);
+    text-align: center;
+}
