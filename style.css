@@ -57,7 +57,7 @@ footer{
     text-align: left;
     border: 1px solid var(--preto);
     border-radius: 6rem;
-    margin: 1rem;
+    margin: 0.6rem;
     padding: 0.6rem;
 }
 
@@ -65,4 +65,8 @@ footer{
     margin-top: 4rem;
     padding: 2rem;
     font-size: 1.4vw;
+}
+
+.cartao:hover .conteudo-cartao{
+    transform: rotateX(180deg);
 }
