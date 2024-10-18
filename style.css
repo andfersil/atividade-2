@@ -6,6 +6,7 @@
 --destaque: #006400;
 --preto: 	#000000;
 --branco: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -63,4 +64,5 @@ footer{
 .conteudo-cartao p {
     margin-top: 4rem;
     padding: 2rem;
+    font-size: 1.4vw;
 }
