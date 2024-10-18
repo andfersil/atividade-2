@@ -81,6 +81,10 @@ footer{
     backface-visibility: hidden;
 }
 
+.pergunta-cartao{
+    margin: auto;
+}
+
 
 .resposta-cartao {
     transform: rotateY(180deg);
