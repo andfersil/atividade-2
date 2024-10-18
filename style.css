@@ -66,10 +66,9 @@ footer{
 }
 
 .conteudo-cartao p {
-    margin-top: 4rem;
+    margin-top:auto;
     padding: 2rem;
     font-size: 1.4vw;
-    text-align: center;
     
 }
 
