@@ -57,7 +57,7 @@ footer{
 .conteudo-cartao h3 {
     position: absolute;
     text-align: left;
-    border: 1px solid var(--preto);
+    border: 1px solid var(--fundo);
     border-radius: 6rem;
     margin: 0.6rem;
     padding: 0.6rem;
