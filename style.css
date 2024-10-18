@@ -49,6 +49,8 @@ footer{
     text-align: center;
     height: 100%;
     border-radius: 2rem;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 
 
