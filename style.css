@@ -51,7 +51,7 @@ footer{
     border-radius: 2rem;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
-    backface-visibility: hidden;
+
 }
 
 
@@ -68,8 +68,13 @@ footer{
     margin-top: 4rem;
     padding: 2rem;
     font-size: 1.4vw;
+    
 }
 
 .cartao:hover .conteudo-cartao{
     transform: rotateY(180deg);
+}
+
+.pergunta-cartao, .resposta-cartao {
+    backface-visibility: hidden;
 }
