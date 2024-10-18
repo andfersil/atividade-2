@@ -67,7 +67,6 @@ footer{
 }
 
 .conteudo-cartao p {
-    margin-top: 1rem;
     padding: 2rem;
     font-size: 1.4vw;
     
@@ -79,10 +78,6 @@ footer{
 
 .pergunta-cartao, .resposta-cartao {
     backface-visibility: hidden;
-}
-
-.pergunta-cartao{
-   margin-top: 2rem;
 }
 
 
