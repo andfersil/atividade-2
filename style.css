@@ -1,11 +1,12 @@
 :root{
 
 --fundo:		#020d3f;
---cartão-frente: 	#008080;
+--cartão-frente: 	#368dc7;
 --cartão-verso: #2E8B57;
 --destaque: #006400;
 --preto: 	#000000;
 --branco: #ffffff;
+
 }
 
 body{
@@ -43,7 +44,7 @@ footer{
 
 
 .conteudo-cartao {
-    background-color: var(--cartão-frente);
+    background-color: var(--branco);
     text-align: center;
     height: 100%;
     color: var(--branco);
