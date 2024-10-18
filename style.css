@@ -69,6 +69,7 @@ footer{
     margin-top: 4rem;
     padding: 2rem;
     font-size: 1.4vw;
+    text-align: center;
     
 }
 
@@ -85,5 +86,5 @@ footer{
     transform: rotateY(180deg);
     font-weight: 700;
     color: var(--destaque);
-    border: 2px solid var(--destaque);
+   /* border: 2px solid var(--destaque);*/
 }
