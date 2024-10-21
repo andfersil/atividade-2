@@ -75,9 +75,9 @@ footer{
     transform: rotateY(180deg);
 }
 
-/*.pergunta-cartao, .resposta-cartao {
+.pergunta-cartao, .resposta-cartao {
     backface-visibility: hidden;
-}*/
+}
 
 
 .resposta-cartao {
