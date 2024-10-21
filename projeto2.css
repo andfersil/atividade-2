@@ -1,10 +1,11 @@
 :root {
-    --fundo: #c6b888;
-    --cartao-frente: #1f120e;
-    --cartao-verso: #633e25;
-    --destaque: #582a2a;
+    --fundo: #126450;
+    --cartao-frente: #190c53;
+    --cartao-verso: #7071b1;
+    --destaque: #0a4553;
     --preto: #000000;
     --branco: #ffffff;
+
 
 }
 
@@ -48,6 +49,7 @@ head a{
     padding: 40px;
     border: 1px solid var(--destaque);
     transition: transform 0.2s;
+    box-shadow: 5px 5px 20px var(--preto);
 
 }
 
