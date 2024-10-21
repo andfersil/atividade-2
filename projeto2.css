@@ -1,5 +1,5 @@
 :root {
-    --fundo: #126450;
+    --fundo: #0bacdd;
     --cartao-frente: #190c53;
     --cartao-verso: #7071b1;
     --destaque: #0a4553;
@@ -62,5 +62,5 @@ header a{
     background-color: var(--cartao-verso);
     padding: 2rem;
     text-align: center;
-    
+
 }
