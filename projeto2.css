@@ -50,7 +50,7 @@ head a{
     border: 1px solid var(--destaque);
     transition: transform 0.2s;
     box-shadow: 5px 5px 20px var(--preto);
-    color: --branco;
+    color: var(--branco);
 
 }
 
