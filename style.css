@@ -1,88 +1,101 @@
-:root{
-
---fundo:		#7b0000;
---cartão-frente:#a0a0a0;
---cartão-verso: #2E8B57;
---destaque: #006400;
---preto: 	#000000;
---branco: #ffffff;
-font-family: Arial, Helvetica, sans-serif;
+:root {
+    --fundo: #c6b888;
+    --cartao-frente: #1f120e;
+    --cartao-verso: #633e25;
+    --destaque: #582a2a;
+    --preto: #000000;
+    --branco: #ffffff;
 
 }
 
-body{
-
-background-color: var(--fundo);
-margin: 0%;
+body {
+    background-color: var(--fundo);
+    margin: 0%;
 }
 
-
-footer{
-    background-color:  var(--preto);
+footer {
+    background-color: var(--preto);
     position: fixed;
-    bottom: 0;
-    color:  var(--branco);
+    bottom: 0%;
+    color: var(--branco);
     width: 100%;
     text-align: center;
 }
-#conteiner{
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--preto);
+    padding: 2rem;
+
+}
+
+head a{
+    color: var(--branco);
+    text-decoration: none;
+}
+
+#container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 4rem;
     gap: 3rem;
+
 }
 
-
-
-.cartao{
-    margin: 1rem;
-    height: 20rem;
+.cartao {
+    margin: 2rem;
+    height: 25rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
-    text-align: center;
-
 }
-
 
 .conteudo-cartao {
-    background-color: var(--cartão-frente);
+    background-color: var(--cartao-frente);
     text-align: center;
     height: 100%;
-    border-radius: 2rem;
+    color: var(--branco);
+    border-radius: 5%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
-
 }
-
 
 .conteudo-cartao h3 {
     position: absolute;
     text-align: left;
-    border: 1px solid var(--fundo);
-    border-radius: 6rem;
+    border: 2px solid var(--destaque);
     margin: 0.6rem;
     padding: 0.6rem;
-}
-
-.conteudo-cartao p {
-    padding: 2rem;
-    font-size: 1.4vw;
-    
-}
-
-.cartao.active, .conteudo-cartao{
-    transform: rotateY(180deg);
-}
-
-.pergunta-cartao, .resposta-cartao {
+    border-radius: 25%;
     backface-visibility: hidden;
 }
 
+.conteudo-cartao p {
+    margin-top: 4rem;
+    padding: 2rem;
+    font-size: 1.4vw;
+}
+
+.cartao:active .conteudo-cartao {
+    transform: rotateY(180deg);
+
+}
+
+.pergunta-cartao,
+.resposta-cartao {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
 
 .resposta-cartao {
     transform: rotateY(180deg);
     font-weight: 700;
-    color: var(--destaque);
-   /* border: 2px solid var(--destaque);*/
+    color: var(--preto);
+    border: 2px solid var(--destaque);
+    background-color: var(--cartao-verso);
+    border-radius: 5%;
 }
