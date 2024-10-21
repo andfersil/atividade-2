@@ -33,7 +33,7 @@ header{
 
 }
 
-head a{
+header a{
     color: var(--branco);
     text-decoration: none;
 }
