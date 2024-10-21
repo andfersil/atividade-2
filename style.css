@@ -1,4 +1,5 @@
 :root{
+
 --fundo:		#7b0000;
 --cartão-frente:#a0a0a0;
 --cartão-verso: #2E8B57;
@@ -71,7 +72,7 @@ footer{
     
 }
 
-.cartao.active, .conteudo-cartao{
+.cartao:hover, .conteudo-cartao{
     transform: rotateY(180deg);
 }
 
