@@ -8,7 +8,7 @@ criaCartao('matematica',' Qual é a fórmula de área de um hexágono regular?',
 
 criaCartao('matematica',
     ' Como que se calcula o fatorial de um número?',
-    'precisamos multiplicar todos os antecessores desse número.n X (n-1) X (n-2) X ...')
+    'precisamos multiplicar todos os antecessores desse número.n X (n-1).(n-2).[...].1')
 
 criaCartao('matematica', 
     'Qual a fórmula da área de um trapézio?', 
