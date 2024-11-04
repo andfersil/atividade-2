@@ -50,6 +50,7 @@ header a{
     transition: transform 0.2s;
     box-shadow: 5px 5px 20px var(--preto);
     color: var(--branco);
+    cursor: pointer;
 
 }
 
