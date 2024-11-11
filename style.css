@@ -1,6 +1,6 @@
 :root {
     --fundo: #0bacdd;
-    --cartao-frente: #190c53;
+    --cartao-frente: #301c8a;
     --cartao-verso: #7071b1;
     --destaque: #0a4553;
     --preto: #000000;
@@ -13,7 +13,7 @@ body{
 margin: 0%;
 }
  header{
-    background-color: var(--preto);
+    background-color: var(--preto);..
     display: flex;
     justify-content: space-around;
     padding: 1rem;
