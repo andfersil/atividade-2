@@ -66,7 +66,7 @@ header a{
 .conteudo-cartao h3{
     position: absolute;
    text-align: left;
-   color: var(--destaque);
+   color: var(--branco);
    border: 1px solidvar(--destaque);
    border-radius: 6rem;
    padding: 0.6rem;
