@@ -86,7 +86,7 @@ header a{
    .pergunta-cartao, .resposta-cartao{
        backface-visibility: hidden;
        position:absolute;
-       color: var(--destaque);
+       color: var(--branco);
        height: 100%;
        width: 100%;
    }
