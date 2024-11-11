@@ -62,40 +62,38 @@ header a{
     transition: transform 300ms ease-in-out;
 }
 
-.conteudo-cartao h3 {
+
+.conteudo-cartao h3{
     position: absolute;
-    text-align: left;
-    border: 2px solid var(--destaque);
-    margin: 0.6rem;
-    padding: 0.6rem;
-    border-radius: 25%;
-    backface-visibility: hidden;
-}
+   text-align: left;
+   color: var(--destaque);
+   border: 1px solidvar(--destaque);
+   border-radius: 6rem;
+   padding: 0.6rem;
+   margin: 0.6rem;
+   font-size: 1vw;
+   backface-visibility: hidden;
+   }
+   .conteudo-cartao p{
+       margin-top: 5rem;
+       padding: 2rem;
+       font-size: 1.4vw;
+   }
+   
+   .cartao.active .conteudo-cartao{
+       transform: rotateY(180deg);
+   }
+   .pergunta-cartao, .resposta-cartao{
+       backface-visibility: hidden;
+       position:absolute;
+       color: var(--destaque);
+       height: 100%;
+       width: 100%;
+   }
+   .resposta-cartao{
+       transform: rotateY(180deg); 
+       background-color:var(--verso-cartao);
+       color:var(--destaque);
+       border:2px solid var(--destaque);
+   }
 
-.conteudo-cartao p {
-    margin-top: 4rem;
-    padding: 2rem;
-    font-size: 1.4vw;
-}
-
-.cartao:active .conteudo-cartao {
-    transform: rotateY(180deg);
-
-}
-
-.pergunta-cartao,
-.resposta-cartao {
-    backface-visibility: hidden;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-.resposta-cartao {
-    transform: rotateY(180deg);
-    font-weight: 700;
-    color: var(--preto);
-    border: 2px solid var(--destaque);
-    background-color: var(--cartao-verso);
-    border-radius: 5%;
-}
