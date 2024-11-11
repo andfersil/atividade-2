@@ -93,7 +93,7 @@ header a{
    .resposta-cartao{
        transform: rotateY(180deg); 
        background-color:var(--verso-cartao);
-       color:var(--destaque);
+       color:var(--branco);
        border:2px solid var(--destaque);
    }
 
